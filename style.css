@@ -1,0 +1,103 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  
+  background: linear-gradient(to bottom right,lightgrey, lightblue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#container{
+  height:50%;
+  width: 75%;
+
+  position: absolute;
+  left: 13%;
+  top: 10%;
+}
+#count{
+  text-align: center;
+  padding: 25% 0;
+  border: 1px solid;
+  position: relative;
+  top:25%;
+  border-radius: 5%;
+}
+#title{
+  text-align: center;
+  
+}
+
+@keyframes snowfall{
+  0% {top:-5px;}
+  100% {top:95%;}
+}
+
+.snow{
+  height:7px ;
+  width: 7px;
+  background-color: white;
+  border:1px,solid;
+  border-radius: 5px;
+  position: absolute;
+  
+
+}
+#snow1{
+  right:0px;
+  animation:snowfall 3s infinite ;
+}
+#snow2{
+  animation:snowfall 2s infinite ;
+  right:14%;
+}
+#snow3{
+  animation:snowfall 3.5s infinite ;
+  right:26%;
+}
+#snow4{
+  animation:snowfall 2.1s infinite ;
+  left:0px;
+}
+#snow5{
+  animation:snowfall 2.7s infinite ;
+  left:18%;
+}
+#snow6{
+  animation:snowfall 3s infinite ;
+  left:30%;
+}
+#snow7{
+  animation:snowfall 4s infinite ;
+  left:57%;
+}
+
+.snowpile{
+  height:150px;
+  width:150px;
+  background-color: white;
+  border:1px,solid;
+  border-radius: 75px;
+  position: fixed;
+}
+
+#snowpile1{
+  bottom: -55px;
+  left:-20px;
+}
+#snowpile2{
+  bottom: -60px;
+  left:85px;
+}
+#snowpile3{
+  bottom: -80px;
+  right:100px;
+}
+#snowpile4{
+  bottom: -65px;
+  right:-20px;
+}
